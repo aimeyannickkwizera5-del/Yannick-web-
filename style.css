@@ -1,0 +1,74 @@
+body{
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 60px;
+    margin: 20px;
+
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+}
+table{
+    width: 70px;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    
+}
+th,td{
+    border: 1px solid black;
+    padding: 65px;
+    text-align: center;
+    
+
+
+}
+th{
+    background-color: wheat;
+}
+image{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+
+}
+.danger{
+    color: rgb(255, 47, 206);
+    font-weight: bold;
+}
+
+button{
+    font-size: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+}
+p{
+    font-size: 30px;
+}
+h2{
+    font-size: 50px;
+}
+
+li{
+    font-size: 30px;
+}
+
+footer{
+    background-color: green;
+    padding: 20px;
+}
+
+input{
+    font-size: 20px;
+    padding: 5px;
+}
+fieldset{
+    text-align: center;
+}
+
+header{
+    background-color: green;
+    padding: 20px;
+width: 100%;
+}
