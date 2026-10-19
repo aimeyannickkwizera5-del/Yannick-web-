@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+p { max-width: 65ch; }
+.card {
+  width: 320px;
+  padding: 20px;
+  border: 2px solid #2457d6;
+  margin: 16px;
+  box-sizing: border-box;
+}
+.container {
+  width: min(90%, 1100px);
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+  }
+  h1 { font-size: 1.6rem; }
+}
+.container {
+  width: min(90%, 1100px);
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+  }
+  h1 { font-size: 1.6rem; }
+}

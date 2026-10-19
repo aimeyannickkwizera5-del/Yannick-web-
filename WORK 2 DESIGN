@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset=UTF-8>
+<meta name="viewport"content=width=device-width, initial-scale=1.0" >
+<style>
+/* GENERAL PAGE DESIGN */
+* {
+box-sizing:border-box;
+}
+
+body {
+margin: 0;
+padding: 25px
+background: "e8e8e8"
+font-family: "Times New Roman", serif; 
+color: #222;
+font-size : 15px;
+}
+
+
+.report {
+
+width: 210mm;
+min-height:297mm;
+margin: 0 auto;
+padding:15mm 22mm 12mm;
+background: #fff;
+box-shadow:0 0 8px rgb(0,0,0,0.15);
+}
+
+/*REPORT HEADING */
+.section-title {
+font-size: 17px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.main-title {
+font-size: 17px;
+font-weight: bold;
+margin-bottom: 24px;
+}
+
+.introduction{
+font-size: 15px;
+line-height: 1.8;
+text-align: justify;
+margin-bottom: 8px;
+}
+
+.notice{
+font-weight: bold;
+margin 8px; 0 28px;
+}
+
+/*INSTITUTION DETAILS */
+.institution-details{
+border: 1px solid #777;
+border-bottom: none;
+padding: 10px;
+line-height: 1.65;
+}
+.institution-details p {
+margin: 0;
+}
+
+/*MAIN REPORT TABLE */
+table {
+width: 100%;
+border-collapse: collapse;
+table-layout: fixed;
+font-size: 14px;
+}
+
+th,
+td {
+border:  solid #777;
+padding: 7px 6px;
+text-align: left;
+vertical-align: top;
+overflow-wrap: break-word;
+line-height: 1.5;
+}
+
+th{
+font-weight: bold;
+vertical-align: top;
+}
+
+.window-col { width:17%; }
+.trade-col  {width:16.5%;}
+.contrast-col { width:15%; }
+.actual-col { width:15%; }
+.performance-col { width:21.5%; }
+.challeng-col { width:15% }
+
+.project-row td {
+height: 95px;
+}
+
+/* SIGNATURE SECTION */
+.signature-table td {
+height: 38px;
+vertical-align: middle;
+}
+
+.signature-space {
+    height: 65px;
+}
+
+.signature-line {
+border-bottom: 1px solid #555;
+min-height: 45px;
+padding-top: 18px;
+}
+
+/* FOOTER */
+.page-footer {
+text-align: center;
+font-style: italic;
+margin-top: 30px;
+font-size: 15px;
+}
+
+/* PRINT BUTTON */
+.print-button {
+display: block;
+margin: 20px auto;
+border: none;
+border-radius: 5px;
+background: #174d82;
+color:white;
+font-size: 16px;
+cursor: pointer;
+}
+
+.print-button:hover {
+background: #10375e;
+}
+@page {
+size: A4 portait;
+margin:0;
+}
+
+@media print {
+body {
+margin: 0;
+padding: 15mm 12mm 12mm;
+box-shadow: none;
+
+}
+
+.print-button {
+display: none;
+}
+tr {
+break-inside: avoid;
+}
+}
+@media screen and (max-width: 800px) {
